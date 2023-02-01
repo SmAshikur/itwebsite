@@ -1,16 +1,16 @@
 <template>
     <header id="header" class="header d-flex align-items-center fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-    
+
           <a href="{{url('/')}}" class="logo d-flex align-items-center" style="text-decoration: none;">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-             <img src="assets/itlogo.jpeg" alt="" style="width:40px; height:40px"> 
+             <img src="assets/itlogo.jpeg" alt="" style="width:40px; height:40px"/>
             <h1 class="d-flex align-items-center mx-4">  Comfort IT Solution</h1>
           </a>
-    
+
           <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
           <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-    
+
           <nav id="navbar" class="navbar p-0">
             <!-- <div id="nav">
                 <router-link to="/">Home</router-link> |
@@ -90,14 +90,14 @@
               <li><router-link to="/contact">Cotact</router-link></li> -->
             </ul>
           </nav><!-- .navbar -->
-    
+
         </div>
       </header>
 </template>
 <script>
 export default {
     setup() {
-        
+
     },
 }
 </script>
